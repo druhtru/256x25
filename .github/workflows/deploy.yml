@@ -13,13 +13,13 @@ jobs:
       - name: Checkout the repository
         uses: actions/checkout@v2
 
-      # Копіюємо файли на сервер і оновлюємо документацію
       - name: Deploy to Server via SSH
         uses: appleboy/ssh-action@v0.1.2
         with:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
+          passphrase: ${{ secrets.DEPLOY_KEY_PASSPHRASE }}
           port: 22
           script: |
             cd /home/node/docs
