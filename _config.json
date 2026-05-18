@@ -1,5 +1,5 @@
 {
-   "disabled": ["evm_contracts", "evm_tokens"],
+   "disabled": ["ibc", "evm_contracts", "evm_tokens"],
    "snapshots": {
      "enabled": true,
      "baseUrl": "https://dl.256x25.tech/snapshots",
