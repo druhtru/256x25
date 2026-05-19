@@ -1,7 +1,7 @@
 {
   "disabled": ["ibc", "evm_contracts"],
   "maintenance": {
-    "enabled": true,
+    "enabled": false,
     "message": "We are performing scheduled maintenance. Back soon."
   },
   "snapshots": {
