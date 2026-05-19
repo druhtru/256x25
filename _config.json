@@ -1,8 +1,12 @@
 {
-   "disabled": ["ibc", "evm_contracts"],
-   "snapshots": {
-     "enabled": true,
-     "baseUrl": "https://dl.256x25.tech/snapshots",
-     "chains": ["shido"]
+  "disabled": ["ibc", "evm_contracts"],
+  "maintenance": {
+    "enabled": true,
+    "message": "We are performing scheduled maintenance. Back soon."
+  },
+  "snapshots": {
+    "enabled": true,
+    "baseUrl": "https://dl.256x25.tech/snapshots",
+    "chains": ["shido"]
   }
 }
