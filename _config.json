@@ -1,5 +1,5 @@
 {
-  "disabled": ["ibc", "evm_contracts"],
+  "disabled": ["ibc", "evm_contracts", "wallet"],
   "maintenance": {
     "enabled": false,
     "message": "We are performing scheduled maintenance. Back soon."
