@@ -5,7 +5,7 @@
     "message": "We are performing scheduled maintenance. Back soon."
   },
   "snapshots": {
-    "enabled": true,
+    "enabled": false,
     "baseUrl": "https://dl.256x25.tech/snapshots",
     "chains": ["shido"]
   }
